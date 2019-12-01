@@ -1,0 +1,75 @@
+body {background-color: white;}
+
+.slide_main {
+    text-align: center;  font-size: 150%; font-family: 'Maven Pro', sans-serif;
+}
+
+.slide_headers {
+  font-family: 'Righteous', cursive; font-size: 400%;
+}
+
+.recipe-main-body {
+  text-align: center; font-size: 100%; font-family: 'Maven Pro', sans-serif;
+}
+
+.headers {
+  text-align: center; font-family: 'Righteous', cursive;  font-size: 700%;
+}
+
+.sub_headers {
+  text-align: center; font-family: 'Righteous', cursive;  font-size: 280%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #FBBC08;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #000;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.navbar {
+position: fixed;
+top: 0;
+width: 100%;
+z-index:2;
+}
